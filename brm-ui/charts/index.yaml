@@ -3,12 +3,12 @@ entries:
   brm-ui-denizbank:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-05-21T15:47:00.8896284+03:00"
+    created: "2024-05-21T16:13:37.2831162+03:00"
     description: A Helm chart for Kubernetes
     digest: eb2fd8677a790db04e4cf0f4d300574affaf172c61cd33676b130cdc3e82956b
     name: brm-ui-denizbank
     type: application
     urls:
-    - brm-ui-denizbank-0.1.0.tgz
+    - https://hesnagullinktera.github.io/brm-ui/brm-ui-denizbank-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-21T15:47:00.8891021+03:00"
+generated: "2024-05-21T16:13:37.2824861+03:00"
