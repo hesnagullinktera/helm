@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  self: linktera/brm:denizbank-ui-denizbank-ui-v1.0.18
+  policy: IfNotPresent
+  env:
+    api: dev.brm-denizbank-api.linktera.xyz
+
+service:
+  externalIP: 10.222.21.16
+  targetPort: 3000

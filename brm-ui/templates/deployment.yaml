@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: denizbank-ui
+  labels:
+    app: denizbank-ui
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: denizbank-ui
+  strategy: { }
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: denizbank-ui
+    spec:
+      containers:
+        - image: {{ .Values.image.self }}
+          name: ui
+          env:
+            - name: API_URL
+              value: {{ .Values.image.env.api}}
+          resources:
+            limits:
+              cpu: 2
+              memory: "4Gi"
+            requests:
+              cpu: 1
+              memory: "2Gi"
+          ports:
+            - containerPort: 3000
+      imagePullPolicy:  {{ .Values.image.pullPolicy }}
+      restartPolicy: Always
+      imagePullSecrets:
+        - name: regcred
+status: { }
