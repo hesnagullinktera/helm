@@ -11,5 +11,4 @@ spec:
     - protocol: TCP
       port: 3000
       targetPort: {{ .Values.service.targetPort }}
-  externalIPs:
-    - {{ .Values.service.externalIP }}
+  type: LoadBalancer
