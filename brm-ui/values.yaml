@@ -5,7 +5,3 @@ image:
   policy: IfNotPresent
   env:
     api: dev.brm-denizbank-api.linktera.xyz
-
-service:
-  externalIP: 10.222.21.16
-  targetPort: 3000
