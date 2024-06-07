@@ -5,3 +5,6 @@ image:
   policy: IfNotPresent
   env:
     api: dev.brm-denizbank-api.linktera.xyz
+
+service:
+  targetPort: 3000
