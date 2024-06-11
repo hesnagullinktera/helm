@@ -4,7 +4,16 @@ image:
   self: linktera/brm:denizbank-ui-v1.0.27
   policy: IfNotPresent
   env:
-    api: dev.brm-denizbank-api.linktera.xyz
+    api: ltbrmapp.apps.uat.deniz.denizbank.com
 
 service:
   targetPort: 3000
+
+ingress:
+  name: brm-ui-denizbank
+  namespace: brm
+  ingressclass: nginx
+  host: ltbrm.apps.uat.deniz.denizbank.com
+  path: /
+  serviceName: denizbank-ui
+  portNumber: 80
