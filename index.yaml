@@ -3,7 +3,7 @@ entries:
   brm-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-13T09:38:07.72587516Z"
+    created: "2024-06-24T02:23:21.5984521+03:00"
     description: A Helm chart for Kubernetes
     digest: d6f9fc54de85751db1c43e940ca5a00543c1486930acdf97649442f3b6356a71
     name: brm-backend
@@ -14,12 +14,12 @@ entries:
   brm-ui-denizbank:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-13T09:38:07.726310682Z"
+    created: "2024-06-24T02:23:21.5989907+03:00"
     description: A Helm chart for Kubernetes
-    digest: 82554ae5ffea6af1f3e3506746a5e45d70d1f40fafc8b689f210bb4734462de7
+    digest: 0789d1605957e799aa0078a9f59e5f1510e08229d2a9aaa66419f2c47ed0d161
     name: brm-ui-denizbank
     type: application
     urls:
     - https://hesnagullinktera.github.io/helm/brm-ui-denizbank-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-13T09:38:07.724872333Z"
+generated: "2024-06-24T02:23:21.5973657+03:00"
