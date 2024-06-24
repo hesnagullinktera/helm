@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: denizbank-ui
-  strategy: { }
+  strategy: {}
   template:
     metadata:
       creationTimestamp: null
@@ -18,17 +18,17 @@ spec:
         app: denizbank-ui
     spec:
       containers:
-        - image: {{ .Values.image.self }}
-          name: ui
+        - name: ui
+          image: {{ .Values.image.self }}
           env:
             - name: API_URL
-              value: {{ .Values.image.env.api}}
+              value: {{ .Values.image.env.api }}
           resources:
             limits:
-              cpu: 2
+              cpu: "2"
               memory: "4Gi"
             requests:
-              cpu: 1
+              cpu: "1"
               memory: "2Gi"
           ports:
             - containerPort: 3000
@@ -36,4 +36,4 @@ spec:
       restartPolicy: Always
       imagePullSecrets:
         - name: regcred
-status: { }
+status: {}
