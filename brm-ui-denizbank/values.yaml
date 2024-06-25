@@ -9,7 +9,6 @@ image:
 service:
   type: LoadBalancer
   port: 3000
-  name: https
 
 ingress:
   enabled: true
@@ -20,10 +19,3 @@ ingress:
   path: /
   serviceName: denizbank-ui
   portNumber: 80
-  enablecors: "true"
-  corsalloworigin: "*"
-  corsallowheaders: "DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization,x-ms-useragent,ocp-apim-subscription-key"
-  corsexposeheaders:  "*"
-  corsallowmethod: "PUT, GET, POST, OPTIONS, DELETE, PATCH"
-  corsallowcredentials: "false"
-  proxybodysize: "500m"
