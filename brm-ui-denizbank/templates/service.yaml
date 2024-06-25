@@ -11,5 +11,4 @@ spec:
     - protocol: TCP
       port: {{ .Values.service.port }}
       targetPort: 3000
-      name: {{ .Values.service.name }}
   type: {{ .Values.service.type }}

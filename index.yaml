@@ -3,7 +3,7 @@ entries:
   brm-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-25T17:24:59.3961555+03:00"
+    created: "2024-06-25T18:14:34.0996777+03:00"
     description: A Helm chart for Kubernetes
     digest: 93409116d747f65c8a549de89f7aa9720416137bd1a8acaaa5cc1a952eef8f32
     name: brm-backend
@@ -13,7 +13,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-25T17:24:59.3949261+03:00"
+    created: "2024-06-25T18:14:34.0947484+03:00"
     description: A Helm chart for Kubernetes
     digest: d6f9fc54de85751db1c43e940ca5a00543c1486930acdf97649442f3b6356a71
     name: brm-backend
@@ -24,9 +24,9 @@ entries:
   brm-ui-denizbank:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-25T17:24:59.4274702+03:00"
+    created: "2024-06-25T18:14:34.1132406+03:00"
     description: A Helm chart for Kubernetes
-    digest: d0332c798c071dce9e5b18c8b8079da3f083d44fbbddd32e154705d2e2b88c04
+    digest: 03456d2980af31c6ae05e3ee9fad2ec0c18d68dabd96dab318b85638ab0ebe4e
     name: brm-ui-denizbank
     type: application
     urls:
@@ -34,7 +34,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-25T17:24:59.4264433+03:00"
+    created: "2024-06-25T18:14:34.1132406+03:00"
     description: A Helm chart for Kubernetes
     digest: abc9ce57bc30a0e03b028941c9b0c3dd577b79a5d499932de8390ccc83f1dde4
     name: brm-ui-denizbank
@@ -44,7 +44,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-25T17:24:59.4170692+03:00"
+    created: "2024-06-25T18:14:34.1090398+03:00"
     description: A Helm chart for Kubernetes
     digest: 4149dc1bde92afa85b8fcbab95ed29a469ff56704d3ac56fb23815ec8f7339d8
     name: brm-ui-denizbank
@@ -54,7 +54,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-25T17:24:59.4058007+03:00"
+    created: "2024-06-25T18:14:34.1043891+03:00"
     description: A Helm chart for Kubernetes
     digest: 0789d1605957e799aa0078a9f59e5f1510e08229d2a9aaa66419f2c47ed0d161
     name: brm-ui-denizbank
@@ -62,4 +62,4 @@ entries:
     urls:
     - https://hesnagullinktera.github.io/helm/brm-ui-denizbank-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-25T17:24:59.3773322+03:00"
+generated: "2024-06-25T18:14:34.0884871+03:00"
