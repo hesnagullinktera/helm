@@ -1,14 +1,14 @@
 replicaCount: 1
 
 image:
-  self: linktera/brm:denizbank-ui-v1.0.30
+  self: dcr.deniz.denizbank.com/linktera/brm:denizbank-ui-v1.0.35
   policy: IfNotPresent
   env:
     api: ltbrmapp.apps.uat.deniz.denizbank.com
 
 service:
   type: LoadBalancer
-  port: 3000
+  port: 80
 
 ingress:
   enabled: true
