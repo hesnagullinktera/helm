@@ -21,7 +21,7 @@ spec:
         - name: ui
           image: {{ .Values.image.self }}
           env:
-            - name: API_URL
+            - name: api_url
               value: {{ .Values.image.env.api }}
           resources:
             limits:
